@@ -1,0 +1,47 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background-color: #f2f0e8 !important;
+}
+
+.ys-nav li a:hover {
+    color: #f2f0e8 !important;
+}
+
+.ys-brand {
+    font-family: 'Allerta', sans-serif;
+}
+
+.ys-jumbotron {
+    text-shadow: 1px 1px #000000;
+    color: #f2f0e8;
+    background-color: #181a20 !important;
+    background-image: url("/img/jumbo-bg.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-radius: 0 !important;
+}
+
+@media (max-width: 800px) {
+    .ys-jumbotron {
+	background-position: center center;
+    }
+}
+
+.ys-jumbotron h1 {
+    font-family: 'Great Vibes', sans-serif;
+}
+
+.ys-tri h2 {
+    font-weight: bold;
+}
+
+.ys-btn-danger {
+    background-color: #a71930;
+    color: #f2f0e8;
+}
+
+.ys-btn-danger:hover {
+    background-color: #690717;
+    color: #f2f0e8;
+}

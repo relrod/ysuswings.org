@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords"
+	  content="ysu,swing,dance,blues,jazz,music,youngstown,state,university,cedars,club,student,students,latin">
+    <title>YSU Swing Dance Club - $title$</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Great+Vibes|Allerta"
+	  rel="stylesheet">
+    <link href="/css/default.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- By using .bg-inverse we are technically violating the usage guidelines
+	 for the YSU 'Y' logo (https://da.gd/k7OmJ) which say that it should be
+	 used on a white or light bg. However, the SVG *does* conform to the
+	 rule of including the white border inside the black background of the
+	 'Y' - the SVG was edited specifically for this purpose.
+	 
+	 I thought about introducing a secondary color (what they call
+	 "Teal Blue" in the guidelines) as the nav bg, but it felt too
+	 prominent so I decided against it. It also isn't really all that
+	 light. -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <div class="container">
+	<button class="navbar-toggler"
+		type="button"
+		data-toggle="collapse"
+		data-target="#navbarsDefault"
+		aria-controls="navbarsDefault"
+		aria-expanded="false"
+		aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+	</button>
+	<a class="navbar-brand ys-brand" href="/">
+	  <img src="/img/ysu.svg" alt="YSU" style="height: 40px;"> Swing Dance Club
+	</a>
+
+	<div class="collapse navbar-collapse" id="navbarsDefault">
+          <ul class="navbar-nav ml-auto ys-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/calendar">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dj">DJ Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/join">Become a Member</a>
+            </li>
+          </ul>
+	</div>
+      </div>
+    </nav>
+
+    $body$
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+  </body>
+</html>
