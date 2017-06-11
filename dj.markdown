@@ -20,7 +20,7 @@ dance.
   encourage our DJs to, in addition to reading the crowd and keeping the energy
   level appropriate, mix in music that accommodates all different kinds of
   swing dances including (but not limited to) Lindy Hop, East Coast, Balboa,
-  Charleston, and Swag.
+  Charleston, and Shag.
 
 - We encourage DJs to play music that has a *swung rhythm*. This excludes most
   Latin songs as well as most electro-swing songs. We are primarily a swing
