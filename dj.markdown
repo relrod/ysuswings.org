@@ -27,7 +27,7 @@ dance.
   dance club and there are other clubs which provide other forms of dancing.
 
 - Consider the length of your songs. Most dancers in a social dance setting
-  would rather dance with 4, 3-minute dances with different people than 2,
+  would rather dance 4, 3-minute dances with different people than 2,
   6-minute dances in the same twelve minutes. There is no hard and fast rule
   here, but generally if a song is much longer than around 3.5 minutes, you
   should probably think hard before playing it.
