@@ -13,7 +13,8 @@ main = hakyll $ do
     compile compressCssCompiler
 
   match "*.markdown" $ do
-    route   $ setExtension "html"
+    -- Hack to get pretty URLs without ".html"
+    route $ gsubRoute ".markdown" (const "/index.html")
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
