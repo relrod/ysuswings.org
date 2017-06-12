@@ -1,6 +1,8 @@
 ---
 title: About
+banner: about-banner.html
 outerclasses: container
+innerclasses: col-md-8
 ---
 
 # About Us

@@ -12,6 +12,8 @@ main = hakyll $ do
     route   idRoute
     compile compressCssCompiler
 
+  match "*-banner.html" $ compile templateCompiler
+
   match "*.markdown" $ do
     -- Hack to get pretty URLs without ".html"
     route $ gsubRoute ".markdown" (const "/index.html")

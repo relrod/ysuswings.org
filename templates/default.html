@@ -7,7 +7,7 @@
     <meta name="keywords"
 	  content="ysu,swing,dance,blues,jazz,music,youngstown,state,university,cedars,club,student,students,latin">
     <title>YSU Swing Dance Club - $title$</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Great+Vibes|Allerta"
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Great+Vibes|Allerta|Noto+Serif"
 	  rel="stylesheet">
     <link href="/css/default.css" rel="stylesheet">
     <link rel="stylesheet"
@@ -54,27 +54,27 @@
 	<div class="collapse navbar-collapse" id="navbarsDefault">
           <ul class="navbar-nav ml-auto ys-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/about">
+              <a class="nav-link ys-nav-link" href="/about">
 		<i class="fa fa-info-circle" aria-hidden="true"></i> About Us
 	      </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/calendar">
+              <a class="nav-link ys-nav-link" href="/calendar">
 		<i class="fa fa-calendar" aria-hidden="true"></i> Events
 	      </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/dj">
+              <a class="nav-link ys-nav-link" href="/dj">
 		<i class="fa fa-music" aria-hidden="true"></i> DJ Information
 	      </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/join">
+              <a class="nav-link ys-nav-link" href="/join">
 		<i class="fa fa-plus-circle" aria-hidden="true"></i> Join
 	      </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
+              <a class="nav-link ys-nav-link"
 		 href="https://www.facebook.com/groups/ysuswing/">
 		<i class="fa fa-facebook-square" aria-hidden="true"></i>
 		Facebook Group
@@ -85,7 +85,12 @@
       </div>
     </nav>
 
-    <div$if(outerclasses)$ class="$outerclasses$"$endif$>$body$</div>
+    $if(banner)$ $partial(banner)$ $endif$
+    <div class="ys-body $if(outerclasses)$ $outerclasses$ $endif$">
+      <div class="$if(innerclasses)$ $innerclasses$ $endif$">
+	$body$
+      </div>
+    </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"

@@ -1,6 +1,8 @@
 ---
 title: DJ Information
+banner: dj-banner.html
 outerclasses: container
+innerclasses: col-md-12
 ---
 
 # DJing Our Weekly Dance

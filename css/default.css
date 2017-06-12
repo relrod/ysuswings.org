@@ -1,6 +1,13 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif !important;
     background-color: #f2f0e8 !important;
+}
+
+.ys-jumbotron, .ys-nav-link {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.ys-body {
+    font-family: 'Noto Serif', serif;
 }
 
 .ys-nav li a:hover {
@@ -11,15 +18,16 @@ body {
     font-family: 'Allerta', sans-serif;
 }
 
+.ys-nav-link {
+    padding-right: 0.75rem !important;
+    padding-left: 0.75rem !important;
+}
+
 .ys-jumbotron {
     text-shadow: 1px 1px #000000;
     color: #f2f0e8;
-    background-color: #181a20 !important;
-    background-image: url("/img/jumbo-bg.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right top;
     border-radius: 0 !important;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 800px) {
@@ -44,4 +52,25 @@ body {
 .ys-btn-danger:hover {
     background-color: #690717;
     color: #f2f0e8;
+}
+
+.ys-jumbotron-index {
+    background-color: #181a20 !important;
+    background-size: auto 100%;
+    background-position: right top;
+    background-image: url("/img/jumbo-bg.jpg");
+}
+
+.ys-jumbotron-about {
+    background-color: #181a20 !important;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("/img/ysu.jpg");
+}
+
+.ys-jumbotron-dj {
+    background-color: #181a20 !important;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("/img/mixer.jpg");
 }
