@@ -58,7 +58,13 @@ body {
     background-color: #181a20 !important;
     background-size: auto 100%;
     background-position: right top;
-    background-image: url("/img/jumbo-bg.jpg");
+    background-image: url("/img/jumbo-bg-lg.jpg");
+}
+
+@media (max-width: 1200px) {
+    .ys-jumbotron-index {
+	background-image: url("/img/jumbo-bg-md.jpg");
+    }
 }
 
 .ys-jumbotron-about {
